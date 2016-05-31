@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/stud_info"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:focusable="true"
+    android:clickable="true"
+    android:background="?android:attr/selectableItemBackground">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/student_name"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:lines="1"
+        android:ellipsize="marquee"
+        android:scrollHorizontally="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="16sp"
+        android:text="Medium Text"
+        android:id="@+id/student_username"
+        android:layout_marginBottom="20dp"
+        android:lines="1"
+        android:ellipsize="marquee"
+        android:scrollHorizontally="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/student_name"
+        android:layout_alignStart="@+id/student_name"
+        android:layout_alignRight="@+id/student_name"
+        android:layout_alignEnd="@+id/student_name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/reges_no"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp" />
+
+</RelativeLayout>

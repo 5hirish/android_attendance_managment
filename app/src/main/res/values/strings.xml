@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Attendance</string>
+
+    <array name="acc_type">
+        <item>Administrator</item>
+        <item>User</item>
+    </array>
+
+    <array name="semester">
+        <item>Semester I</item>
+        <item>Semester II</item>
+        <item>Semester III</item>
+        <item>Semester IV</item>
+        <item>Semester V</item>
+        <item>Semester VI</item>
+    </array>
+
+    <array name="year">
+        <item>First Year</item>
+        <item>Second Year</item>
+        <item>Third Year</item>
+    </array>
+
+    <array name="sem1_subject">
+        <item>Subject 1</item>
+        <item>Subject 2</item>
+        <item>Subject 3</item>
+        <item>Subject 4</item>
+        <item>Subject 5</item>
+    </array>
+
+    <array name="sem2_subject">
+        <item>Subject 6</item>
+        <item>Subject 7</item>
+        <item>Subject 8</item>
+        <item>Subject 9</item>
+        <item>Subject 10</item>
+    </array>
+
+    <array name="sem3_subject">
+        <item>Subject 11</item>
+        <item>Subject 12</item>
+        <item>Subject 13</item>
+        <item>Subject 14</item>
+        <item>Subject 15</item>
+    </array>
+
+    <array name="sem4_subject">
+        <item>Subject 16</item>
+        <item>Subject 17</item>
+        <item>Subject 18</item>
+        <item>Subject 19</item>
+        <item>Subject 20</item>
+    </array>
+
+    <array name="teacher">
+        <item>Prof. ABC</item>
+        <item>Prof. PQR</item>
+        <item>Prof. XYZ</item>
+        <item>Prof. LMN</item>
+    </array>
+
+    <array name="date">
+        <item>Today</item>
+        <item>Select date:</item>
+    </array>
+
+</resources>
